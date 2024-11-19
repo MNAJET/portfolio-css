@@ -1,0 +1,105 @@
+/* Apply global styles */
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #007b5e;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #d9ffd9;
+}
+
+/* Section styles */
+.section {
+    padding: 50px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(223, 30, 30, 0.1);
+   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+}
+
+/* Form styles */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+form input,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+/* Styles for services and projects section */
+.services-projects {
+    display: flex;
+    justify-content: space-between; /* Space between the two sections */
+    gap: 20px; /* Optional: Adds space between the two sections */
+}
+
+#projects, #services {
+    flex: 1; /* Ensures both sections take equal width */
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
